@@ -1,0 +1,21 @@
+.sub-menu {
+    display: none;
+    position: absolute;
+    z-index: 10;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    min-width: 150px;
+}
+
+.sub-menu li {
+    margin-bottom: 5px;
+}
+
+.sub-menu li:hover {
+    background-color: #ccc;
+}
+
+li:hover .sub-menu {
+    display: block;
+}
